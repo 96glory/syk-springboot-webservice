@@ -1,5 +1,6 @@
 package com.glory.book.springboot.web;
 
+import com.glory.book.springboot.config.auth.LoginUser;
 import com.glory.book.springboot.config.auth.dto.SessionUser;
 import com.glory.book.springboot.domain.user.User;
 import com.glory.book.springboot.service.posts.PostsService;
@@ -27,9 +28,9 @@ public class IndexController {
     */
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+        // SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if(user != null){
             model.addAttribute("userName", user.getName());
         }
