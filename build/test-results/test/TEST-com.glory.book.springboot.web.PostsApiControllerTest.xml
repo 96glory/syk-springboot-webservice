@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.glory.book.springboot.web.PostsApiControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-02-27T05:31:34" hostname="DESKTOP-9CDFBJT" time="0.0">
+<testsuite name="com.glory.book.springboot.web.PostsApiControllerTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-02T01:02:59" hostname="DESKTOP-9CDFBJT" time="0.0">
   <properties/>
   <testcase name="initializationError" classname="com.glory.book.springboot.web.PostsApiControllerTest" time="0.0">
     <failure message="java.lang.ClassNotFoundException: com.glory.book.springboot.web.PostsApiControllerTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.glory.book.springboot.web.PostsApiControllerTest
