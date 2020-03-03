@@ -49,7 +49,7 @@ deploy:
     bucket: syk-springboot-build
     key: springboot-webservice.zip
     bundle_type: zip
-    application: syk-springboot-webservice
+    application: springboot-webservice
     deployment_group: syk-springboot-webservice-group
     region: ap-northeast-2
     wait-until-deployed: true
