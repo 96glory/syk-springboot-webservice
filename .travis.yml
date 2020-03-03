@@ -47,7 +47,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: syk-springboot-build
-    key: springboot-webservice.zip
+    key: syk-springboot-webservice.zip
     bundle_type: zip
     application: syk-springboot-webservice
     deployment_group: syk-springboot-webservice-group
